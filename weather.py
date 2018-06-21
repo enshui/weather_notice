@@ -1,9 +1,14 @@
-﻿from datetime import datetime
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+ 
+' weather_notice '
+ 
+__author__ = 'Yu Enshui'
+
+from datetime import datetime
 import pymongo
 import requests
 from lxml import etree
-
-
 
 def get_information():
     response = requests.get('http://forecast.weather.com.cn/town/weathern/101120504010.shtml')
