@@ -1,4 +1,10 @@
-﻿# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+ 
+' weather_notice '
+ 
+__author__ = 'Yu Enshui'
+
 import json
 from aliyunsdkdysmsapi.request.v20170525 import SendSmsRequest
 from aliyunsdkcore.client import AcsClient
