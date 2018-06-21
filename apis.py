@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+ 
+' weather_notice '
+ 
+__author__ = 'Yu Enshui'
+
 import json
 
 from flask import Flask
